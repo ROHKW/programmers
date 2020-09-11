@@ -3,8 +3,10 @@ m = map(int, input().split())
 
 finalcard = []
 
-for i in range(n):
+for i in range(1,n+1):
     data = list(map(int, input().split()))
-    z = min(data)
-    for j in data:
-        finalcard +=
+    Min = min(data)
+    FinalCard = finalcard.append(m)
+    Max =  max(FinalCard)
+
+print(Max)
